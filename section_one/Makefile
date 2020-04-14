@@ -9,3 +9,6 @@ run-task-3:
 
 run-task-4: run-task-3
 	tail -n 1 dkit.html | tr "[<>]" "[[]]" >> mangled.txt && head -n 1 dkit.html | tr "[<>]" "[[]]" >> mangled.txt
+
+clean:
+	unlink dkit.html && unlink mangled.txt

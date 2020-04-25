@@ -5,6 +5,6 @@ run-task-2:
 run-task-3:
 	grep "404" access.log
 run-task-4:
-	echo "run task 4"
+	grep "MSIE" access.log >> access.ie.log >> access.ie.log 
 run-task-5:
 	echo "run task 5"

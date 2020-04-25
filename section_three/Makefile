@@ -3,7 +3,7 @@ run-task-1:
 run-task-2:
 	egrep -o "[0-9]{3}.[0-9]{3}.[0-9]{3}.[0-9]{2}" access.log | uniq
 run-task-3:
-	grep "404" access.log
+	grep "404" access.log | egrep -o "GET .*HTTP/1.1"
 run-task-4:
 	grep "MSIE" access.log >> access.ie.log > access.ie.log
 run-task-5:

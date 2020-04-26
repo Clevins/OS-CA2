@@ -3,91 +3,110 @@
 ### Operating Systems CA2 April 2020
 
 ## Section 1
-**Commands**
+##### Description
 Generate the string 'The quick brown fox jumps over the lazy dog\n' and count the number of words in this
 string. The word count should be printed to the terminal
+##### Command
 ```c
 make run-task-1
 ```
 
-
+##### Description
 Generate the string 'The quick brown fox jumps over the lazy dog\n' and convert all characters to uppercase.
 Output should be printed to the terminal.
+##### Command
 ```c
 make run-task-2
 ```
-
+##### Description
  Download the DkIT homepage (https://www.dkit.ie) HTML source code and save it to a file named dkit.html
+ ##### Command
 ```c
 make run-task-3
 ```
-
+##### Description
 Using the dkit.html file created in Task 3, create a new file named mangled.txt that contains the first and last line from
 dkit.html, in reverse order, with all angled brackets (< and >) replaced with square brackets ([ and ])
+##### Command
 ```c
 make run-task-4
 ```
+##### Description
 clean directory of generated files
+##### Command
 ```c
 make clean
 ```
 
 ## Section 2
+##### Description
 Filter the list to only show valid colour codes. The filtered list should be printed to the terminal
+##### Command
 ```c
 make run-task-1
 ```
-
+##### Description
 Extract the Green value from each valid colour code and print the result to the terminal as a comma-separated list of decimal
 value
+##### Command
 ```c
 make run-task-2
 ```
+##### Description
 Convert each valid colour code to the format rgba(r,g,b,a) and output the result to a new file named rgba-colours.txt. The
 generated list of rgba() strings should all be valid CSS rgba() colour values, and should be sorted in ascending order by their alpha
 value
+##### Command
 ```c
 make run-task-3
 ```
-
+##### Description
 clean directory of colourrgb.txt file and build folder and rebuild build folder
+##### Command
 ```c
 make clean
 ```
 ## Section 3
+##### Description
  Print the last ten lines in the file to the terminal
+ ##### Command
 ```c
 make run-task-1
 ```
-
+##### Description
  Generate and print to the terminal a list (one item per line) of all unique IP addresses in this file. The generated list should not
 contain any duplicate entries
+##### Command
 ```c
 make run-task-2
 ```
-
+##### Description
 Generate and print to the terminal a list (one item per line) of all requests that resulted in a 404 status code. The generated
 list should only show the "REQUEST" portion of a log entry
+##### Command
 ```c
 make run-task-3
 ```
-
+##### Description
  Filter the log file entries to only those requests that were made from the Microsoft Internet Explorer browser. The filtered log
 file should be saved to a new file named access.ie.log.
+##### Command
 ```c
 make run-task-4
 ```
-
+##### Description
 Filter the log file to only those entries that took 5 milliseconds or more to process. From this filtered list, generate and print to
 the terminal a report that shows, for each unique request path:
 * The request path
 * The total number of requests to the path
 * The shortest, longest, and average request time for the path
+##### Command
 ```c
 make run-task-5
 ```
-
+##### Description
 recursively delete build folder and remake it
+##### Command
 ```c
 make clean
 ```

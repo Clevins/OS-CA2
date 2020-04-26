@@ -1,8 +1,8 @@
-#Unix tool and piping
-##Cormac Levins & Patrick McDonnell
-###Operating Systems CA2 April 2020
+# Unix tool and piping
+## Cormac Levins & Patrick McDonnell
+### Operating Systems CA2 April 2020
 
-##Section 1
+## Section 1
 **Commands**
 Generate the string 'The quick brown fox jumps over the lazy dog\n' and count the number of words in this
 string. The word count should be printed to the terminal
@@ -29,22 +29,13 @@ dkit.html, in reverse order, with all angled brackets (< and >) replaced with sq
 make run-task-4
 ```
 
-##Section 2
+## Section 2
 
-##Section 3
+## Section 3
 
 
-##References
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+## References
+* one
+* two
+* three
+* link

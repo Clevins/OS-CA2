@@ -21,15 +21,15 @@ make run-task-2
 ```c
 make run-task-3
 ```
-clean directory of generated files
-```c
-make clean
-```
 
 Using the dkit.html file created in Task 3, create a new file named mangled.txt that contains the first and last line from
 dkit.html, in reverse order, with all angled brackets (< and >) replaced with square brackets ([ and ])
 ```c
 make run-task-4
+```
+clean directory of generated files
+```c
+make clean
 ```
 
 ## Section 2

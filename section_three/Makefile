@@ -7,6 +7,6 @@ run-task-3:
 run-task-4:
 	grep "MSIE" access.log > access.ie.log
 run-task-5:
-	echo "run task 5"
+	cat access.log | sort -k 7n | tail -n8 | sort -k 1.53 | tr '\n' ' ' | ./build/gen_report
 clean-up:
 	unlink access.ie.log

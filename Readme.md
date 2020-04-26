@@ -110,7 +110,8 @@ recursively delete build folder and remake it
 ```c
 make clean
 ```
-
+# Screencast
+https://youtu.be/VmCuHYJEb8Y 
 
 ## References
 * https://stackoverflow.com/questions/2114377/strings-in-c-how-to-get-substring

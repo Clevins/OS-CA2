@@ -12,5 +12,5 @@ compile-procs:
 	cat access.log | sort -k 7n | tail -n8 | sort -k 1.53 | tr '\n' ' ' | ./build/gen_report
 compile-paths:
 	cat access.log | sort -k 7n | tail -n8 | cut -f4 -d' ' | sort -f | uniq -ic
-clean-up:
+clean:
 	unlink access.ie.log
